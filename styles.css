@@ -235,3 +235,59 @@ body{background-color:var(--navy)}
 .exp-arrow{font-size:1.9rem}
 @media(max-width:980px){.experience-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.exp-tile{grid-template-rows:180px 1fr}.exp-tile img{height:180px}.exp-tile h3{font-size:1.72rem;min-height:0}.exp-copy,.exp-role{min-height:0}.exp-body{row-gap:5px}}
 @media(max-width:720px){.hero-logo-final{width:min(400px,82vw)}.hero-values{gap:12px}.experience-grid{grid-template-columns:1fr}.exp-tile{grid-template-rows:210px 1fr}.exp-tile img{height:210px}.exp-body{padding:20px;row-gap:6px}.exp-tile h3{font-size:1.75rem;min-height:0}.exp-copy,.exp-role{min-height:0}}
+
+/* v18: jóváhagyott tartalmak hosszabb bekezdéseinek olvashatósága */
+.intro-card__lead--second{margin-top:12px}
+.philosophy-signature{max-width:840px;margin:25px auto;padding:20px 26px;border-left:3px solid #caa974;background:rgba(202,169,116,.09);font-family:'Cormorant Garamond',serif;font-size:clamp(1.3rem,2.4vw,1.75rem);line-height:1.35;color:#253e56;font-weight:600;text-align:left}
+.philosophy-text{max-width:850px;line-height:1.75}
+.drawer-copy p{margin-bottom:1.15em;line-height:1.8}
+.drawer-copy p:last-child{margin-bottom:0}
+@media(max-width:720px){.philosophy-signature{padding:14px 18px}}
+
+/* v19: állandóan elérhető navigáció a teljes oldalon */
+.site-header{position:sticky;top:0;z-index:200;background:rgba(8,29,51,.97);border-bottom:1px solid rgba(202,169,116,.22);box-shadow:0 5px 20px rgba(3,17,30,.12);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.site-header__inner{max-width:1320px;margin:auto;padding:15px 34px}
+.site-header .topbar{margin-bottom:0}
+.site-header .topnav{color:var(--gold-soft)}
+.site-header .lang-switch{color:var(--gold-soft);flex-shrink:0}
+html{scroll-padding-top:85px}
+[id]{scroll-margin-top:85px}
+@media(max-width:720px){
+ .site-header__inner{padding:10px 14px}
+ .site-header .topbar{flex-direction:row;align-items:center;gap:10px}
+ .site-header .topnav{flex:1;min-width:0;overflow-x:auto;flex-wrap:nowrap;white-space:nowrap;gap:16px;scrollbar-width:thin;-webkit-overflow-scrolling:touch;padding-bottom:3px}
+ .site-header .topnav a{flex:none;font-size:.68rem}
+ .site-header .lang-switch{gap:5px;font-size:.72rem}
+ html{scroll-padding-top:74px}
+ [id]{scroll-margin-top:74px}
+}
+
+/* v20: approved portfolio improvements */
+.philosophy-more[hidden]{display:none}.philosophy-toggle{display:inline-flex;margin:12px auto 7px;border:1px solid #b69a72;border-radius:99px;background:transparent;color:#173c56;padding:11px 24px;font:600 .86rem Manrope,sans-serif;cursor:pointer}.philosophy-toggle:hover{background:#ebdfce}.philosophy-signature{margin-top:14px;margin-bottom:14px}
+.career-journey{margin:0 0 25px;background:#122f49;border-radius:14px;padding:20px 24px;color:#f8f0e5}.career-journey__eyebrow{text-align:center;margin:0 0 14px;color:#d5b583;font-family:'Cormorant Garamond',serif;font-size:1.5rem}.career-journey__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}.career-journey__grid>div{text-align:center;padding:8px;min-width:0;border-top:2px solid #bb9b6e}.career-journey__grid span{display:block;color:#c9a87c;font-size:.72rem;margin-bottom:7px}.career-journey__grid strong{font-size:.81rem;line-height:1.35;display:block;font-weight:600}
+.outcomes-section{padding:28px 34px 34px}.outcomes-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.outcome-tile{border:1px solid #d8c6a8;background:#f7f0e6;min-height:170px;border-radius:13px;padding:23px 18px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:9px;cursor:pointer;color:#163852;font-family:Manrope,sans-serif;transition:transform .18s,box-shadow .18s}.outcome-tile:hover{transform:translateY(-3px);box-shadow:0 10px 22px #173b5420}.outcome-tile strong{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,3vw,2.75rem);line-height:1;color:#2d4c61}.outcome-tile span{font-size:.85rem;font-weight:600}.outcome-tile small{font-size:.74rem;color:#6b7a82}.outcome-tile .outcome-open{font-size:.75rem;color:#906c3e;margin-top:4px}
+:focus-visible{outline:3px solid #bd9154!important;outline-offset:3px}body{overflow-x:hidden}
+@media(max-width:760px){.career-journey__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.outcomes-grid{grid-template-columns:1fr}.outcomes-section{padding:25px 18px}.outcome-tile{min-height:128px}.career-journey{padding:18px 14px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* v21 – approved aesthetic refinement */
+.stats-grid{align-items:stretch}
+.stat-card{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;gap:0;padding:21px 11px 24px;min-width:0}
+.stat-card__icon{flex:none;width:68px;height:68px;margin:0 auto 17px}
+.stat-card__body{display:flex;flex-direction:column;align-items:center;width:100%;min-width:0}
+.stat-card__body strong{display:block;min-height:58px;font-size:3rem;line-height:1.08;font-variant-numeric:lining-nums tabular-nums}
+.stat-card__body span{margin-top:8px;font-size:clamp(.81rem,1.17vw,1rem);line-height:1.48;max-width:240px;overflow-wrap:normal;hyphens:manual}
+.philosophy-card{text-align:center}
+.philosophy-quote{text-align:center;margin-inline:auto}
+.philosophy-citation{max-width:840px;margin:19px auto 21px;text-align:center}
+.philosophy-citation .philosophy-signature{max-width:100%;margin:0;padding:22px 25px 13px;border-left:0;border-top:1px solid rgba(184,148,100,.65);border-bottom:0;background:rgba(202,169,116,.09);text-align:center}
+.philosophy-author{display:block;font:500 .69rem Manrope,sans-serif;color:#7e7569;text-align:right;padding:0 21px 15px;background:rgba(202,169,116,.09);border-bottom:1px solid rgba(184,148,100,.65);letter-spacing:.02em}
+.career-journey{margin-bottom:24px;padding:24px 14px}
+.career-journey__eyebrow{font-size:clamp(1.55rem,2.55vw,2rem);margin:0;text-align:center}
+.exp-body{grid-template-rows:auto auto auto auto 1fr auto}
+.exp-result{font-family:Manrope,sans-serif;min-height:49px;display:flex;flex-direction:column;gap:3px;align-items:flex-start;color:#57636e;margin-top:4px}
+.exp-result strong{font-weight:700;font-size:.9rem;line-height:1.1;color:#876842}
+.exp-result span{font-size:.67rem;line-height:1.3}
+@media(max-width:980px){.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stat-card{display:flex;flex-direction:column}.stat-card__body strong{min-height:55px}.exp-result{min-height:0}}
+@media(max-width:720px){.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stat-card{display:flex;flex-direction:column;padding:17px 8px 19px}.stat-card__icon{width:57px;height:57px;margin-bottom:12px}.stat-card__body strong{font-size:2.5rem;min-height:50px}.stat-card__body span{font-size:.78rem;line-height:1.4}.philosophy-citation .philosophy-signature{padding:15px 15px 10px}.philosophy-author{padding:0 14px 13px}.career-journey{padding:19px 12px}}
+@media(max-width:400px){.stat-card__body span{font-size:.71rem}.stat-card__body strong{font-size:2.25rem}}

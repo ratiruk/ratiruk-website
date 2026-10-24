@@ -1,4 +1,3 @@
-RATIRUK v14 – új KV-logó és tapasztalati kártyák.
-
-A kicsomagolt index.html, styles.css, script.js és assets mappa kerüljön a GitHub repó gyökerébe.
-A CNAME fájlt őrizd meg.
+RATIRUK – frissített véglegesítésre szánt változat (v21).
+A magyar és angol szövegek, részletes szakmai panelek, rögzített menü, finomított statisztikák és idézet, egyszerűsített Tapasztalat fejléc, visszafogott eredmény-megjelenítés, a legújabb CV.
+GitHub Pages: index.html, styles.css, script.js és assets mappa feltöltése a repó gyökerébe; a CNAME állományt NE töröld.
