@@ -291,3 +291,6 @@ html{scroll-padding-top:85px}
 @media(max-width:980px){.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stat-card{display:flex;flex-direction:column}.stat-card__body strong{min-height:55px}.exp-result{min-height:0}}
 @media(max-width:720px){.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stat-card{display:flex;flex-direction:column;padding:17px 8px 19px}.stat-card__icon{width:57px;height:57px;margin-bottom:12px}.stat-card__body strong{font-size:2.5rem;min-height:50px}.stat-card__body span{font-size:.78rem;line-height:1.4}.philosophy-citation .philosophy-signature{padding:15px 15px 10px}.philosophy-author{padding:0 14px 13px}.career-journey{padding:19px 12px}}
 @media(max-width:400px){.stat-card__body span{font-size:.71rem}.stat-card__body strong{font-size:2.25rem}}
+
+/* v22: align Vodafone footer with the other three career cards */
+.exp-result--empty{visibility:hidden;pointer-events:none}
