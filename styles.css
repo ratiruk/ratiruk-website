@@ -294,3 +294,6 @@ html{scroll-padding-top:85px}
 
 /* v22: align Vodafone footer with the other three career cards */
 .exp-result--empty{visibility:hidden;pointer-events:none}
+
+/* v23 – first article teaser */
+.blog-feature-preview{margin-top:20px;padding-top:19px;border-top:1px solid rgba(180,150,105,.35);max-width:530px}.blog-feature-preview__meta{display:block;color:#a7804d;letter-spacing:.13em;text-transform:uppercase;font-size:.63rem;font-weight:700;margin-bottom:9px}.blog-feature-preview h3{margin:0 0 10px;color:#153951;font-family:'Cormorant Garamond',serif;font-size:clamp(1.35rem,2.2vw,1.8rem);line-height:1.17}.blog-feature-preview p{font-size:.81rem;line-height:1.75;margin:0 0 12px;color:#5a656b}.article-open-link{font:700 .77rem Manrope,sans-serif;color:#7c5b30;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:4px}.article-open-link:hover{color:#123852}

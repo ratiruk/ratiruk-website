@@ -24,7 +24,7 @@ const translations = {
     expHeading:'Tapasztalat', expRole4:'Folyamat- és projektmenedzsment', detailsOpen:'Részletek megnyitása',
     expDesc1:'E2E folyamatarchitektúra, működési modellek, szolgáltatásmenedzsment és teljesítménymérés', expDesc2:'Pénzügyi és logisztikai folyamatfejlesztés, digitalizáció, projektmenedzsment és Six Sigma', expDesc3:'Ügyfélszolgálati működésfejlesztés, Lean–Kaizen, belső audit és munkafolyamat-menedzsment', expDesc4:'E2E ügyfélszolgálati folyamatok, szabályzatok, termékbevezetések, tudásmenedzsment és Six Sigma',
     knowledgeHeading:'Tudásmegosztás', knowledgeText:'Tapasztalatok, gondolatok és gyakorlati meglátások a hatékonyabb működésért.',
-    blogHeading:'Blog', blogText:'Gyakorlati példák, inspirációk és aktuális témák a folyamatok világából.', soon:'Hamarosan',
+    blogHeading:'Blog', blogText:'Gyakorlati példák, inspirációk és aktuális témák a folyamatok világából.', soon:'Hamarosan', articleMeta:'ELSŐ CIKK · 7–8 PERC OLVASÁS', articleTitle:'Én csak kockákat rajzolok egymás mellé…', articleExcerpt:'Mi rejtőzik néhány egyszerűnek tűnő kocka mögött? Egy személyes történet kérdésekről, emberekről és a szakértelem láthatatlan oldaláról.', articleOpen:'Cikk elolvasása ↗',
     contactHeading:'Kapcsolódjunk', contactText:'Szívesen kapcsolódom olyan szakemberekhez, akiket érdekel a folyamatmenedzsment, a működésfejlesztés és a tudásmegosztás. Ha van egy gondolatod, kérdésed vagy együttműködési ötleted, örömmel veszem a megkeresésedet.', linkedin:'LinkedIn profil',
     drawerClose:'Bezárás',
     readMore:'Tovább olvasom',
@@ -71,7 +71,7 @@ const translations = {
     expHeading:'Experience', expRole4:'Process and project management', detailsOpen:'Open details',
     expDesc1:'E2E process architecture, operating models, service management and performance measurement', expDesc2:'Finance and logistics process improvement, digitalisation, project management and Six Sigma', expDesc3:'Customer service operations improvement, Lean–Kaizen, internal audits and workflow management', expDesc4:'E2E customer service processes, policies and procedures, product launches, knowledge management and Six Sigma',
     knowledgeHeading:'Knowledge Sharing', knowledgeText:'Experience, ideas and practical insights for more effective operations.',
-    blogHeading:'Blog', blogText:'Practical examples, inspiration and current topics from the world of processes.', soon:'Coming soon',
+    blogHeading:'Blog', blogText:'Practical examples, inspiration and current topics from the world of processes.', soon:'Coming soon', articleMeta:'FIRST ARTICLE · 7–8 MIN READ', articleTitle:'I Just Draw Boxes Next to Each Other…', articleExcerpt:'What lies behind a few seemingly simple boxes? A personal story about questions, people and the invisible side of expertise.', articleOpen:'Read the article ↗',
     contactHeading:'Let’s connect', contactText:'I welcome connections with professionals interested in process management, operational improvement and knowledge sharing. If you have an idea, a question or a suggestion for collaboration, I would be happy to hear from you.', linkedin:'LinkedIn profile',
     drawerClose:'Close',
     readMore:'Read more',
@@ -111,6 +111,7 @@ function setLanguage(lang){
   const firstStat = document.querySelector('[data-i18n="stat1"]');
   if (firstStat && currentLang === 'hu') firstStat.innerHTML = 'év folyamat-<br>menedzsment tapasztalat';
   langButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.lang === currentLang));
+  document.querySelectorAll('[data-article-link]').forEach(a => a.href = currentLang === 'hu' ? 'cikkek/csak-kockakat-rajzolok/' : 'en/articles/i-just-draw-boxes/');
   document.title = currentLang === 'hu' ? 'Kuritár Viktória | RATIRUK' : 'Viktória Kuritár | RATIRUK';
   document.querySelector('meta[name=description]').content = currentLang === 'hu' ? 'Kuritár Viktória – folyamatmenedzsment és működésfejlesztés, E2E folyamatarchitektúra, Lean, Six Sigma és szolgáltatásmenedzsment.' : 'Viktória Kuritár – process management and operational excellence, E2E process architecture, Lean, Six Sigma and service management.';
   const toggle = document.querySelector('.philosophy-toggle'); if (toggle) toggle.textContent = t[toggle.getAttribute('aria-expanded') === 'true' ? 'readLess' : 'readMore'];
