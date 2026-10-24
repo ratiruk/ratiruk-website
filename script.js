@@ -1,22 +1,108 @@
 const translations = {
- hu:{motto1:'Jobb folyamatok.',motto2:'Okosabb megoldások.',motto3:'Valódi eredmények.',aboutText2:'ez az oldal egyszerre szakmai portfólió és nyitott tudástár: megosztom azokat a módszereket, gyakorlati tanulságokat és gondolatokat, amelyek másoknak is segíthetnek.',detail_campus_label:'Részletek megnyitása',detail_campus:'A Campus 23 szolgáltatási kategóriájához több mint 110 működési folyamatot térképeztem fel, majd Lean–Kaizen szemlélettel mintegy 75 standard E2E folyamat kialakításán dolgoztam. A fejlesztések része volt az incidens- és major incident-kezelés, az E2E Development, az Order-to-Cash, valamint a 160+ KPI-ra és Power BI-ra épülő teljesítménymenedzsment.',detail_voda_label:'Részletek megnyitása',detail_voda:'Pénzügyi, kontrolling- és logisztikai E2E folyamatokat elemeztem és fejlesztettem. Automatizálási lehetőségeket azonosítottam, jelentéskészítési rendszer fejlesztését irányítottam projektvezetőként, valamint hat Six Sigma fejlesztési projekt szakmai támogatásában és módszertani oktatásában vettem részt.',detail_energy_label:'Részletek megnyitása',detail_energy:'Ügyfélszolgálati, Back Office és követeléskezelési folyamatok elemzésével, Lean–Kaizen fejlesztésével és belső auditjával foglalkoztam. Részt vettem egy ServiceNow-alapú tudásmenedzsment-megoldás bevezetésében is.',detail_telekom_label:'Részletek megnyitása',detail_telekom:'Ügyfélszolgálati folyamatokat és tudásmenedzsment-megoldásokat fejlesztettem, többek között a Magic Book megújításában és mobilkészülék-biztosítási szolgáltatás bevezetésében dolgoztam. Egy Six Sigma Green Belt projektben 50%-kal csökkentettük az operatív jelentések számát. Emellett vezetői prezentációkat készítettem, és kollégákat képeztem.',navAbout:'Rólam',navExperience:'Szakmai utam',navKnowledge:'Tudástár',navBlog:'Blog',navContact:'Kapcsolat',name:'Kuritár Viktória',tagline:'Jobb folyamatok. Okosabb megoldások. Valódi eredmények.',heroLead:'Hiszek az átlátható folyamatokban, az együttműködés erejében és a tudás megosztásában.',heroInfo:'Több mint 15 év tapasztalatára építve osztom meg a folyamatfejlesztésben, működésoptimalizálásban és tudásmegosztásban szerzett tapasztalataimat.',heroCta1:'Szakmai utam',heroCta2:'Kapcsolat',cvDownload:'Angol CV letöltése ↓',portraitNote:'Átgondolt folyamatok. Emberközpontú megoldások.',stat1:'év szakmai tapasztalat',stat2:'tervezett folyamat',stat3:'meghatározott KPI',stat4:'elkészített prezentáció',aboutKicker:'SZEMLÉLETEM',aboutTitle:'Rendszert teremtek a komplexitásban.',aboutText1:'Pályafutásom során a telekommunikáció, az energiaszektor és a komplex szolgáltatási működés világában dolgoztam. Számomra a folyamatfejlesztés egyszerre jelent rendszerszemléletet, mérhető javulást és emberekkel való együttműködést.',aboutText2:'ez az oldal egyszerre szakmai portfólió és nyitott tudástár: megosztom azokat a módszereket, gyakorlati tanulságokat és gondolatokat, amelyek másoknak is segíthetnek.',expKicker:'KARRIERÚT',expTitle:'Tapasztalat különböző iparágakban',expIntro:'Közös fókusz: átláthatóbb működés, fenntartható fejlesztés, kézzelfogható eredmények.',present:'jelenleg',molText:'E2E folyamatok, működési modell, Lean–Kaizen fejlesztések és KPI-rendszer.',teleRole:'Folyamatfejlesztés, projektmenedzsment',teleText:'Üzleti folyamatok újratervezése, tudásmenedzsment, digitalizáció, Six Sigma projektek és vezetői kommunikáció.',vodaText:'Folyamatfejlesztés, digitalizáció és Six Sigma szakmai támogatás.',telekomRole:'Folyamat- és projektmenedzsment',telekomText:'Ügyfélszolgálat, tudásmenedzsment, újratervezés és vezetői prezentációk.',energyText:'Ügyfélszolgálati folyamatfejlesztés, belső auditok és tudásmenedzsment-rendszerek támogatása.',careerHint:'A részletes szakmai idővonal és esettanulmányok a következő verzióban érkeznek.',knowledgeKicker:'TUDÁSMEGOSZTÁS',knowledgeTitle:'Tudásmegosztás',knowledgeIntro:'Gyakorlati módszerek, ötletek és eszközök folyamatmenedzsmenthez, Lean–Six Sigmához és prezentációkhoz. A tudástár jelenleg készül.',topic1:'E2E folyamatok, folyamatmodellezés és működési modellek.',topic2:'Kaizen, DMAIC, strukturált problémamegoldás.',topic3Title:'Prezentációk',topic3:'PowerPoint, storytelling és vezetői vizualizáció.',topic4:'Mérőszámok, dashboardok és adatból vezetői döntés.',blogTitle:'Gondolatok a működés mögött',blogText:'Szakmai tanulságok, új ötletek, módszerek és személyesebb megfigyelések. Az első bejegyzések hamarosan érkeznek.',soon:'Hamarosan',contactKicker:'KAPCSOLAT',contactTitle:'Kapcsolódjunk!',contactText:'Szakmai kérdésed, ötleted vagy együttműködési javaslatod van? Írj bátran.',backTop:'Vissza az elejére ↑',linkedinButton:'LinkedIn-profil ↗'},
- en:{motto1:'Better Processes.',motto2:'Smarter Solutions.',motto3:'Meaningful Results.',detail_campus_label:'Explore experience',detail_campus:'I mapped more than 110 operational processes across 23 Campus service categories and applied Lean–Kaizen principles to consolidate them into approximately 75 standardized E2E processes. My work also covered Incident and Major Incident Management, E2E Development, Order-to-Cash, and a performance framework with 160+ KPIs supported by Power BI.',detail_voda_label:'Explore experience',detail_voda:'I improved end-to-end processes across Finance, Controlling and Logistics, identified opportunities for automation, managed the implementation of a reporting-system upgrade and coached six Six Sigma improvement projects.',detail_energy_label:'Explore experience',detail_energy:'I analyzed, improved and audited customer service, Back Office and Debt Collection processes using Lean and Kaizen. I also represented Customer Service during the implementation of a ServiceNow-based knowledge management solution.',detail_telekom_label:'Explore experience',detail_telekom:'I developed customer service processes and knowledge management solutions, including the transformation of Magic Book and the launch of a mobile device insurance service. A Six Sigma Green Belt project reduced operational reports by 50%. I also created executive presentations and trained colleagues.',navAbout:'About',navExperience:'Experience',navKnowledge:'Knowledge Hub',navBlog:'Blog',navContact:'Contact',name:'Viktória Kuritár',tagline:'Better Processes. Smarter Solutions. Meaningful Results.',heroLead:'I believe in clear processes, meaningful collaboration and sharing practical knowledge.',heroInfo:'Drawing on more than 15 years of experience, I share practical insights into process improvement, operational excellence and knowledge sharing.',heroCta1:'My Experience',heroCta2:'Contact',cvDownload:'Download CV ↓',portraitNote:'Thoughtful processes. People-centered solutions.',stat1:'years of professional experience',stat2:'processes designed',stat3:'KPIs defined',stat4:'presentations created',aboutKicker:'MY APPROACH',aboutTitle:'Bringing structure to complexity.',aboutText1:'My career spans telecommunications, energy and complex service operations. To me, process improvement combines systems thinking, measurable progress and collaboration with people.',aboutText2:'this website is both a professional portfolio and an open knowledge hub where I share methods, practical lessons and ideas that may help others.',expKicker:'CAREER JOURNEY',expTitle:'Experience across industries',expIntro:'A common focus: clearer operations, sustainable improvement and tangible results.',present:'Present',molText:'E2E processes, operating models, Lean–Kaizen improvement and KPI frameworks.',teleRole:'Process improvement and project management',teleText:'Business process reengineering, knowledge management, digitalization, Six Sigma projects and executive communication.',vodaText:'Process improvement, digitalization and Six Sigma coaching.',telekomRole:'Business Process & Project Management',telekomText:'Customer service, knowledge management, redesign and executive presentations.',energyText:'Customer service process improvement, internal audits and knowledge management solutions.',careerHint:'A detailed career timeline and case studies will be added in a future version.',knowledgeKicker:'KNOWLEDGE SHARING',knowledgeTitle:'Knowledge sharing',knowledgeIntro:'Practical methods, ideas and tools for process management, Lean Six Sigma and presentations. The knowledge hub is currently in preparation.',topic1:'End-to-end processes, process modeling and operating models.',topic2:'Kaizen, DMAIC and structured problem-solving.',topic3Title:'Presentations',topic3:'PowerPoint, storytelling and executive visualization.',topic4:'Metrics, dashboards and data-driven decisions.',blogTitle:'Thoughts behind the work',blogText:'Professional lessons, fresh ideas, methods and personal reflections. The first posts are coming soon.',soon:'Coming soon',contactKicker:'CONTACT',contactTitle:'Let’s connect!',contactText:'Have a professional question, idea or proposal for collaboration? Feel free to reach out.',backTop:'Back to top ↑',linkedinButton:'LinkedIn profile ↗'}
+  hu: {
+    navHome: 'Kezdőlap', navAbout: 'Rólam', navExperience: 'Tapasztalat', navKnowledge: 'Tudásmegosztás', navBlog: 'Blog', navContact: 'Kapcsolat',
+    heroScript1:'Hatékonyabb', heroScript2:'működés.', heroScript3:'Emberekkel.', heroScript4:'A jövőért.',
+    heroRight1:'Folyamatokban', heroRight2:'rejlő lehetőségek.', heroRight3:'Valódi érték.', heroRight4:'Tartós eredmények.',
+    motto1:'Jobb folyamatok', motto2:'Okosabb megoldások', motto3:'Valódi eredmények',
+    introEyebrow:'Üdvözöllek, Kuritár Viktória vagyok',
+    introTitle:'Process Management & Operational Excellence Expert',
+    introLead:'Hiszem, hogy a jól működő folyamatok nemcsak hatékonyabb szervezeteket, hanem sikeresebb embereket és fenntarthatóbb jövőt is teremtenek. Szenvedélyem a komplexitásban rejlő lehetőségek feltárása, és a stratégia gyakorlati, mérhető eredménnyé alakítása.',
+    ctaExperience:'Szakmai utam', ctaContact:'Kapcsolat', ctaCv:'CV letöltése',
+    statsHeading:'Számokban a tapasztalatom', stat1:'év szakmai tapasztalat', stat2:'tervezett és optimalizált folyamat', stat3:'meghatározott KPI', stat4Strong:'180+', stat4:'elkészített prezentáció',
+    aboutHeading:'Szemléletem',
+    aboutQuote:'„A valódi fejlődés ott kezdődik, ahol a stratégia találkozik az emberekkel, és a folyamatok értéket teremtenek a mindennapokban.”',
+    aboutText1:'Hiszek a rendszerszintű gondolkodásban, az együttműködésben és a folyamatos tanulásban. Számomra a hatékonyság nem cél, hanem eszköz – egy élhetőbb, emberközpontúbb és fenntarthatóbb működésért.',
+    aboutText2:'Ez az oldal egyszerre szakmai portfólió és nyitott tudástár: megosztom azokat a módszereket, gyakorlati tanulságokat és gondolatokat, amelyek másoknak is segíthetnek.',
+    expHeading:'Tapasztalat', expRole4:'Folyamat- és projektmenedzsment', detailsOpen:'Részletek megnyitása',
+    expDesc1:'E2E folyamatok, működési modell, Lean–Kaizen fejlesztések és KPI-rendszer.', expDesc2:'Folyamatfejlesztés, digitalizáció és Six Sigma szakmai támogatás.', expDesc3:'Ügyfélszolgálati folyamatfejlesztés, belső auditok és tudásmenedzsment-rendszerek támogatása.', expDesc4:'Ügyfélszolgálat, tudásmenedzsment, újratervezés és vezetői prezentációk.',
+    knowledgeHeading:'Tudásmegosztás', knowledgeText:'Tapasztalatok, gondolatok és gyakorlati meglátások a hatékonyabb működésért.',
+    blogHeading:'Blog', blogText:'Gyakorlati példák, inspirációk és aktuális témák a folyamatok világából.', soon:'Hamarosan',
+    contactHeading:'Kapcsolódjunk', contactText:'Beszélgessünk arról, hogyan teremthetünk együtt valódi értéket.', linkedin:'LinkedIn profil',
+    drawerClose:'Bezárás',
+    drawer: {
+      campus: {period:'2022 — jelenleg', role:'Process Management Expert', body:`<p>A MOL Campusnál több mint 110 működési folyamat feltérképezésében és egységesítésében vettem részt, amelyekből Lean–Kaizen szemlélettel körülbelül 75 standardizált E2E folyamat jött létre.</p><p>Fókuszterületeim közé tartozik az Incident és Major Incident menedzsment, az E2E Development, az Order-to-Cash, valamint a 160+ KPI-t tartalmazó teljesítménymérési keretrendszer támogatása.</p>`},
+      voda: {period:'2019–2022', role:'Senior Process Development & Improvement Expert', body:`<p>A Vodafone-nál pénzügyi, controlling és logisztikai folyamatok fejlesztésén dolgoztam, miközben digitalizációs és automatizálási lehetőségeket azonosítottam.</p><p>Részt vettem riportálási rendszerfejlesztésekben és hat Six Sigma projekt szakmai támogatásában is.</p>`},
+      energy: {period:'2018–2019', role:'Business Process Regulatory Expert', body:`<p>Az ELMŰ–ÉMÁSZ környezetében ügyfélszolgálati, Back Office és követeléskezelési folyamatok elemzésével, fejlesztésével és auditálásával foglalkoztam.</p><p>Emellett az ügyfélszolgálatot képviseltem egy ServiceNow-alapú tudásmenedzsment megoldás bevezetésénél.</p>`},
+      telekom: {period:'2007–2017', role:'Business Process & Project Management', body:`<p>A Magyar Telekomnál ügyfélszolgálati folyamatok és tudásmenedzsment megoldások fejlesztésén dolgoztam, többek között a Magic Book átalakításán és új szolgáltatások bevezetésén.</p><p>Six Sigma Green Belt projektem 50%-kal csökkentette az operatív riportok számát, miközben vezetői prezentációkat és belső tréningeket is készítettem.</p>`}
+    }
+  },
+  en: {
+    navHome: 'Home', navAbout: 'About', navExperience: 'Experience', navKnowledge: 'Knowledge Sharing', navBlog: 'Blog', navContact: 'Contact',
+    heroScript1:'More effective', heroScript2:'operations.', heroScript3:'With people.', heroScript4:'For the future.',
+    heroRight1:'Possibilities', heroRight2:'hidden in processes.', heroRight3:'Real value.', heroRight4:'Lasting results.',
+    motto1:'Better Processes', motto2:'Smarter Solutions', motto3:'Meaningful Results',
+    introEyebrow:'Welcome, I am Viktória Kuritár',
+    introTitle:'Process Management & Operational Excellence Expert',
+    introLead:'I believe well-designed processes create not only more effective organizations, but also more successful people and a more sustainable future. I am passionate about uncovering opportunities hidden in complexity and turning strategy into practical, measurable results.',
+    ctaExperience:'My Experience', ctaContact:'Contact', ctaCv:'Download CV',
+    statsHeading:'My experience in numbers', stat1:'years of professional experience', stat2:'designed and optimized processes', stat3:'defined KPIs', stat4Strong:'180+', stat4:'presentations created',
+    aboutHeading:'My approach',
+    aboutQuote:'“Real progress begins where strategy meets people, and where processes create value in everyday work.”',
+    aboutText1:'I believe in systems thinking, collaboration and continuous learning. For me, efficiency is not the goal, but a tool for creating more human-centered, sustainable operations.',
+    aboutText2:'This website is both a professional portfolio and an open knowledge hub where I share methods, practical lessons and ideas that may help others.',
+    expHeading:'Experience', expRole4:'Process and project management', detailsOpen:'Open details',
+    expDesc1:'E2E processes, operating model, Lean–Kaizen improvements and KPI framework.', expDesc2:'Process development, digitalization and Six Sigma professional support.', expDesc3:'Customer service process improvement, internal audits and support for knowledge-management systems.', expDesc4:'Customer service, knowledge management, redesign and executive presentations.',
+    knowledgeHeading:'Knowledge Sharing', knowledgeText:'Experience, ideas and practical insights for more effective operations.',
+    blogHeading:'Blog', blogText:'Practical examples, inspiration and current topics from the world of processes.', soon:'Coming soon',
+    contactHeading:'Let’s connect', contactText:'Let’s talk about how we can create real value together.', linkedin:'LinkedIn profile',
+    drawerClose:'Close',
+    drawer: {
+      campus: {period:'2022 — Present', role:'Process Management Expert', body:`<p>At MOL Campus I contributed to mapping and harmonizing more than 110 operational processes, which were later streamlined into around 75 standardized end-to-end processes using Lean–Kaizen principles.</p><p>My focus areas include Incident and Major Incident Management, E2E Development, Order-to-Cash and a KPI framework containing more than 160 indicators.</p>`},
+      voda: {period:'2019–2022', role:'Senior Process Development & Improvement Expert', body:`<p>At Vodafone I worked on improving finance, controlling and logistics processes while identifying digitalization and automation opportunities.</p><p>I also supported reporting-system upgrades and coached six Six Sigma improvement projects.</p>`},
+      energy: {period:'2018–2019', role:'Business Process Regulatory Expert', body:`<p>Within the ELMŰ–ÉMÁSZ environment I analyzed, improved and audited customer service, back-office and debt-collection processes.</p><p>I also represented Customer Service during the implementation of a ServiceNow-based knowledge-management solution.</p>`},
+      telekom: {period:'2007–2017', role:'Business Process & Project Management', body:`<p>At Magyar Telekom I improved customer service processes and knowledge-management solutions, including the transformation of Magic Book and the launch of new services.</p><p>My Six Sigma Green Belt project reduced operational reporting by 50%, while I also prepared executive presentations and internal trainings.</p>`}
+    }
+  }
 };
-const languageButtons=document.querySelectorAll('[data-lang]');
-function setLanguage(lang){if(!translations[lang])lang='hu';document.documentElement.lang=lang;document.querySelectorAll('[data-i18n]').forEach(el=>{let key=el.dataset.i18n;if(translations[lang][key]!==undefined)el.textContent=translations[lang][key]});languageButtons.forEach(b=>{b.classList.toggle('active',b.dataset.lang===lang);b.setAttribute('aria-pressed',String(b.dataset.lang===lang))});const cv=document.querySelector('[data-i18n="cvDownload"]');if(cv)cv.href='assets/Kuritar_Viktoria_CV_EN.pdf';document.title=(lang==='hu'?'Kuritár Viktória':'Viktória Kuritár')+' | RATIRUK';try{localStorage.setItem('ratiruk-lang',lang)}catch{}}
-languageButtons.forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
-let preferred='hu';try{preferred=localStorage.getItem('ratiruk-lang')||'hu'}catch{}setLanguage(preferred);
-const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#nav');menu?.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open))});nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu?.setAttribute('aria-expanded','false')}));document.getElementById('year').textContent=new Date().getFullYear();
 
-// Show navigation on upward scroll; the opening monogram stays unobstructed.
-let lastScroll=window.scrollY; const header=document.querySelector('.header');
-window.addEventListener('scroll',()=>{const y=window.scrollY;if(Math.abs(y-lastScroll)>7){header?.classList.toggle('nav-hidden',y>lastScroll && y>440 && !nav?.classList.contains('open'));lastScroll=y;}},{passive:true});
+const html = document.documentElement;
+const langButtons = document.querySelectorAll('[data-lang]');
+let currentLang = localStorage.getItem('ratirukLang') || 'hu';
 
-// Animated side panel for career stories; keeps the cards' height unchanged.
-const careerInfo={campus:{title:'MOL Campus',dates:'2022 —',role:'Process Management Expert'},voda:{title:'Vodafone',dates:'2019–2022',role:'Senior Process Development & Improvement Expert'},energy:{title:'ELMŰ–ÉMÁSZ',dates:'2018–2019',role:'Business Process Regulatory Expert'},telekom:{title:'Magyar Telekom',dates:'2007–2017',role:'Business Process & Project Management'}};
-const overlay=document.getElementById('career-overlay'),panel=document.querySelector('.career-panel');let lastFocused=null;
-function openCareer(key){const item=careerInfo[key];if(!item)return;const lang=document.documentElement.lang==='en'?'en':'hu';lastFocused=document.activeElement;document.getElementById('career-panel-title').textContent=item.title;document.getElementById('career-panel-period').textContent=item.dates+(key==='campus'?' '+translations[lang].present:'');document.getElementById('career-panel-role').textContent=item.role;document.getElementById('career-panel-description').textContent=translations[lang]['detail_'+key]||'';document.getElementById('career-panel-sector').textContent=lang==='hu'?'SZAKMAI TAPASZTALAT':'PROFESSIONAL EXPERIENCE';overlay.hidden=false;document.body.classList.add('panel-open');panel.focus();}
-function closeCareer(){overlay.hidden=true;document.body.classList.remove('panel-open');lastFocused?.focus();}
-document.querySelectorAll('[data-career]').forEach(btn=>btn.addEventListener('click',()=>openCareer(btn.dataset.career)));
-document.querySelectorAll('[data-close-career]').forEach(el=>el.addEventListener('click',closeCareer));
-document.addEventListener('keydown',e=>{if(overlay.hidden)return;if(e.key==='Escape')closeCareer();if(e.key==='Tab'){const elements=[...panel.querySelectorAll('button,a,[tabindex]:not([tabindex="-1"])')].filter(el=>!el.disabled);if(!elements.length)return;const first=elements[0],last=elements[elements.length-1];if(e.shiftKey && document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
+function setLanguage(lang){
+  currentLang = translations[lang] ? lang : 'hu';
+  html.lang = currentLang;
+  const t = translations[currentLang];
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (t[key] !== undefined) el.textContent = t[key];
+  });
+  langButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.lang === currentLang));
+  document.title = currentLang === 'hu' ? 'Kuritár Viktória | RATIRUK' : 'Viktória Kuritár | RATIRUK';
+  localStorage.setItem('ratirukLang', currentLang);
+}
+langButtons.forEach(btn => btn.addEventListener('click', ()=>setLanguage(btn.dataset.lang)));
+setLanguage(currentLang);
+
+const drawer = document.querySelector('.career-drawer');
+const drawerPanel = document.querySelector('.career-drawer__panel');
+const drawerTitle = document.getElementById('drawer-title');
+const drawerPeriod = document.getElementById('drawer-period');
+const drawerRole = document.getElementById('drawer-role');
+const drawerCopy = document.getElementById('drawer-copy');
+let lastTrigger = null;
+
+function openDrawer(key, trigger){
+  const data = translations[currentLang].drawer[key];
+  if (!data) return;
+  lastTrigger = trigger || null;
+  drawerTitle.textContent = key === 'telekom' ? (currentLang === 'hu' ? 'Telekom' : 'Telekom') : (key === 'campus' ? 'MOL Campus' : key === 'voda' ? 'Vodafone' : key === 'energy' ? 'Elmű' : '');
+  drawerPeriod.textContent = data.period;
+  drawerRole.textContent = data.role;
+  drawerCopy.innerHTML = data.body;
+  drawer.hidden = false;
+  document.body.style.overflow = 'hidden';
+  requestAnimationFrame(()=>drawerPanel.focus());
+}
+function closeDrawer(){
+  drawer.hidden = true;
+  document.body.style.overflow = '';
+  if (lastTrigger) lastTrigger.focus();
+}
+
+document.querySelectorAll('.exp-open').forEach(btn => btn.addEventListener('click', ()=>openDrawer(btn.dataset.career, btn)));
+document.querySelectorAll('[data-close-drawer]').forEach(el => el.addEventListener('click', closeDrawer));
+document.addEventListener('keydown', e => {
+  if (drawer.hidden) return;
+  if (e.key === 'Escape') closeDrawer();
+});
