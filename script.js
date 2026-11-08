@@ -111,11 +111,12 @@ function setLanguage(lang){
   const firstStat = document.querySelector('[data-i18n="stat1"]');
   if (firstStat && currentLang === 'hu') firstStat.innerHTML = 'év folyamat-<br>menedzsment tapasztalat';
   langButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.lang === currentLang));
+  // Keep links independent: older cached scripts can never redirect the AI article to the first one.
   document.querySelectorAll('[data-article-link]').forEach(a => {
-    const isAi = a.dataset.articleLink === 'ai';
-    a.href = isAi
-      ? (currentLang === 'hu' ? 'cikkek/az-ai-valaszol-de-ki-gondolkodik/' : 'en/articles/ai-answers-but-who-is-thinking/')
-      : (currentLang === 'hu' ? 'cikkek/csak-kockakat-rajzolok/' : 'en/articles/i-just-draw-boxes/');
+    a.href = currentLang === 'hu' ? 'cikkek/csak-kockakat-rajzolok/' : 'en/articles/i-just-draw-boxes/';
+  });
+  document.querySelectorAll('[data-article-link-ai]').forEach(a => {
+    a.href = currentLang === 'hu' ? 'cikkek/az-ai-valaszol-de-ki-gondolkodik/' : 'en/articles/ai-answers-but-who-is-thinking/';
   });
   document.title = currentLang === 'hu' ? 'Kuritár Viktória | RATIRUK' : 'Viktória Kuritár | RATIRUK';
   document.querySelector('meta[name=description]').content = currentLang === 'hu' ? 'Kuritár Viktória – folyamatmenedzsment és működésfejlesztés, E2E folyamatarchitektúra, Lean, Six Sigma és szolgáltatásmenedzsment.' : 'Viktória Kuritár – process management and operational excellence, E2E process architecture, Lean, Six Sigma and service management.';
