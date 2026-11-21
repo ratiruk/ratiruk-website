@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Kuritár Viktória – folyamatmenedzsment és működésfejlesztés. E2E folyamatok, működési modellek, szakmai tapasztalatok és gondolatok.">  <meta property="og:title" content="Kuritár Viktória | RATIRUK">
- <meta property="og:title" content="Kuritár Viktória | RATIRUK">
+<meta name="description" content="Kuritár Viktória – folyamatmenedzsment és működésfejlesztés. E2E folyamatok, működési modellek, szakmai tapasztalatok és gondolatok.">
+  <meta property="og:title" content="Kuritár Viktória | RATIRUK">
   <meta property="og:description" content="Folyamatmenedzsment, működésfejlesztés és szakmai tapasztalatok.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ratiruk.hu/">
@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Allura&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js?v=20261108b"></script>
+  <script defer src="script.js?v=20261121-blog-v27"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38,10 +38,9 @@
       <header class="topbar">
         <nav class="topnav" aria-label="Fő navigáció">
           <a href="#top" data-i18n="navHome">Kezdőlap</a>
+          <a href="#blog" data-i18n="navBlog">Blog</a>
           <a href="#about" data-i18n="navAbout">Rólam</a>
           <a href="#experience" data-i18n="navExperience">Tapasztalat</a>
-          <a href="#knowledge" data-i18n="navKnowledge">Tudásmegosztás</a>
-          <a href="#blog" data-i18n="navBlog">Blog</a>
           <a href="#contact" data-i18n="navContact">Kapcsolat</a>
         </nav>
         <div class="lang-switch" aria-label="Nyelvválasztó">
@@ -84,6 +83,38 @@
   </section>
 
   <main id="content" class="page-shell">
+    <section id="blog" class="blog-hub section-block" aria-labelledby="blog-heading">
+      <div class="blog-hub__heading">
+        <p class="blog-hub__eyebrow" data-i18n="blogKicker">RATIRUK / BLOG</p>
+        <h2 id="blog-heading" data-i18n="blogHeading">Szakmai gondolatok</h2>
+        <p class="blog-hub__intro" data-i18n="blogText">Ezen az oldalon a szakmai tapasztalataimat, gondolataimat és azokat a kérdéseket osztom meg, amelyekkel a munkám során találkozom. Nem kész válaszokat szeretnék adni, inkább gondolkodásra ösztönözni.</p>
+      </div>
+      <div class="blog-hub__articles">
+        <article class="blog-article blog-article--latest">
+          <div class="blog-article__topline">
+            <span class="blog-article__label" data-i18n="article2Meta">LEGFRISSEBB CIKK · 4–5 PERC OLVASÁS</span>
+            <span class="blog-article__number" aria-hidden="true">02</span>
+          </div>
+          <div class="blog-article__main">
+            <h3 data-i18n="article2Title">Az AI válaszol. De ki gondolkodik?</h3>
+            <p data-i18n="article2Excerpt">Miért nem szabad a kész válaszokért feladnunk a saját gondolkodásunkat? Intuícióról, szakértelemről és a munkánk iránti tiszteletről.</p>
+          </div>
+          <a class="blog-article__link" href="cikkek/az-ai-valaszol-de-ki-gondolkodik/" data-article-link-ai data-i18n="articleOpen">Cikk elolvasása ↗</a>
+        </article>
+        <article class="blog-article blog-article--story">
+          <div class="blog-article__topline">
+            <span class="blog-article__label" data-i18n="articleMeta">SZAKMAI TÖRTÉNET · 7–8 PERC OLVASÁS</span>
+            <span class="blog-article__number" aria-hidden="true">01</span>
+          </div>
+          <div class="blog-article__main">
+            <h3 data-i18n="articleTitle">Én csak kockákat rajzolok egymás mellé…</h3>
+            <p data-i18n="articleExcerpt">Mi rejtőzik néhány egyszerűnek tűnő kocka mögött? Egy személyes történet kérdésekről, emberekről és a szakértelem láthatatlan oldaláról.</p>
+          </div>
+          <a class="blog-article__link" href="cikkek/csak-kockakat-rajzolok/" data-article-link data-i18n="articleOpen">Cikk elolvasása ↗</a>
+        </article>
+      </div>
+    </section>
+
     <section class="intro-card section-block">
 
       <div class="intro-card__content">
@@ -203,40 +234,6 @@
           </div>
         </article>
       </div>
-    </section>
-
-    <section class="dual-feature-grid section-block">
-      <article id="knowledge" class="feature-card feature-card--knowledge">
-        <div class="feature-card__icon">
-          <svg viewBox="0 0 160 160" aria-hidden="true"><circle cx="80" cy="80" r="70"/><path d="M52 56c12-5 22-4 28 3 9-7 19-8 28-3v48c-10-4-19-3-28 5-9-8-18-9-28-5V56Z"/><path d="M80 59v50M61 67c5-2 10-2 15 1m-15 13c5-2 10-2 15 1m8-14c5-3 10-3 15-1m-15 15c5-3 10-3 15-1"/></svg>
-        </div>
-        <div class="feature-card__content">
-          <p class="eyebrow" data-i18n="knowledgeHeading">Tudásmegosztás</p>
-          <p class="feature-text" data-i18n="knowledgeText">Tapasztalatok, gondolatok és gyakorlati meglátások a hatékonyabb működésért.</p>
-          <span class="coming-soon" data-i18n="soon">Hamarosan</span>
-        </div>
-      </article>
-      <article id="blog" class="feature-card feature-card--blog">
-        <div class="feature-card__icon">
-          <svg viewBox="0 0 160 160" aria-hidden="true"><circle cx="80" cy="80" r="70"/><path d="M80 46c-16 0-28 12-28 28 0 10 5 18 12 23 5 4 8 8 9 14h14c1-6 4-10 9-14 7-5 12-13 12-23 0-16-12-28-28-28Z"/><path d="M69 121h22m-18 9h14"/></svg>
-        </div>
-        <div class="feature-card__content">
-          <p class="eyebrow" data-i18n="blogHeading">Blog</p>
-          <p class="feature-text" data-i18n="blogText">Gyakorlati példák, inspirációk és aktuális témák a folyamatok világából.</p>
-          <div class="blog-feature-preview">
-            <span class="blog-feature-preview__meta" data-i18n="articleMeta">ELSŐ CIKK · 7–8 PERC OLVASÁS</span>
-            <h3 data-i18n="articleTitle">Én csak kockákat rajzolok egymás mellé…</h3>
-            <p data-i18n="articleExcerpt">Mi rejtőzik néhány egyszerűnek tűnő kocka mögött? Egy személyes történet kérdésekről, emberekről és a szakértelem láthatatlan oldaláról.</p>
-            <a class="article-open-link" href="cikkek/csak-kockakat-rajzolok/" data-article-link data-i18n="articleOpen">Cikk elolvasása ↗</a>
-          </div>
-          <div class="blog-feature-preview">
-            <span class="blog-feature-preview__meta" data-i18n="article2Meta">MÁSODIK CIKK · 4–5 PERC OLVASÁS</span>
-            <h3 data-i18n="article2Title">Az AI válaszol. De ki gondolkodik?</h3>
-            <p data-i18n="article2Excerpt">Miért nem szabad a kész válaszokért feladnunk a saját gondolkodásunkat? Intuícióról, szakértelemről és a munkánk iránti tiszteletről.</p>
-            <a class="article-open-link" href="cikkek/az-ai-valaszol-de-ki-gondolkodik/" data-article-link-ai data-i18n="articleOpen">Cikk elolvasása ↗</a>
-          </div>
-        </div>
-      </article>
     </section>
 
     <section id="contact" class="contact-band section-block">
